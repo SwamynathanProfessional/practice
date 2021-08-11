@@ -1,10 +1,10 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import ScreenA from './Screen/ScreenA';
 import ScreenB from './Screen/ScreenB';
 
-const Stack = createNativeStackNavigator();
+const Stack = createBottomTabNavigator();
 
 function App() {
   return (
