@@ -3,7 +3,7 @@ import {View, StyleSheet, Text} from 'react-native';
 const ScreenA = ({navigation}) => {
   return (
     <View style={styles.input}>
-      <Text style={styles.input}>Welcome to Favorite screen !</Text>
+      <Text style={styles.input}>Welcome to Home screen !</Text>
     </View>
   );
 };
@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     paddingTop: '30%',
+    fontSize: 20,
   },
 });
 
