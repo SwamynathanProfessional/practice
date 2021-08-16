@@ -1,9 +1,9 @@
 import * as React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
-const ScreenB = ({navigation}) => {
+const ScreenA = ({navigation}) => {
   return (
     <View style={styles.input}>
-      <Text style={styles.input}>Welcome to My Account screen !</Text>
+      <Text style={styles.input}>Welcome to Home screen !</Text>
     </View>
   );
 };
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ScreenB;
+export default ScreenA;
