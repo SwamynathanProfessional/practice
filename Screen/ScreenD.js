@@ -3,7 +3,7 @@ import {View, StyleSheet, Text} from 'react-native';
 const ScreenA = ({navigation}) => {
   return (
     <View style={styles.input}>
-      <Text style={styles.input}>Welcome to image screen !</Text>
+      <Text style={styles.input}>Welcome to video screen !</Text>
     </View>
   );
 };
