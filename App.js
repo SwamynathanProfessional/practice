@@ -33,7 +33,7 @@ function App() {
             }
             return <FontAwesome5 name={iconName} size={size} color={color} />;
           },
-<<<<<<< HEAD
+ 
 
           showLabel: true,
           labelStyle: {fontSize: 24},
@@ -46,7 +46,7 @@ function App() {
           }}
         />
 
-=======
+
          
           showLabel: true,
           labelStyle: {fontSize: 24},
@@ -59,7 +59,7 @@ function App() {
           }}
         />
 
->>>>>>> bottom-tab-navigator
+ 
         <Stack.Screen
           name="Screen_B"
           component={ScreenB}
